@@ -2,15 +2,15 @@ import React from "react";
 
 const Home = () => {
   const chefs = [
-    { name: "Chef David", img: "../../public/chef1.jpg" },
-    { name: "Chef Mark", img: "../../public/chef.jpg" },
-    { name: "Chef Jeff", img: "../../public/chef2.jpg" },
+    { name: "Chef David", img: "/chef1.jpg" },
+    { name: "Chef Mark", img: "/chef.jpg" },
+    { name: "Chef Jeff", img: "/chef2.jpg" },
   ];
 
   const assistants = [
-    { name: "Marya John", role: "Sous Chef", img:"../../public/chef-A1.jpg" },
-    { name: "James Carter", role: "Nutrition Assistant",img:"../../public/chef-A.jpg" },
-    { name: "Magy Rick", role: "Pastry Prep Chef",img:"../../public/chef-A2.avif" },
+    { name: "Marya John", role: "Sous Chef", img:"/chef-A1.jpg" },
+    { name: "James Carter", role: "Nutrition Assistant",img:"/chef-A.jpg" },
+    { name: "Magy Rick", role: "Pastry Prep Chef",img:"/chef-A2.avif" },
   ];
 
   return (
